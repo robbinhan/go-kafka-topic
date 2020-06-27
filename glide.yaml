@@ -1,0 +1,6 @@
+package: github.com/robbinhan/go-kafka-topic
+import:
+- package: github.com/confluentinc/confluent-kafka-go
+  version: ^0.11.0
+  subpackages:
+  - kafka
